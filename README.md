@@ -1,1 +1,1 @@
-# snike
+# snake
