@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-container">
+        <button onclick="startGame()">Start Game</button>
+    </div>
+    <div class="game-container" style="display: none;">
+        <div id="snakeHead"></div>
+        <div id="food"></div>
+    </div>
+    <div id="game-over" style="display: none;">
+        <h1>Game Over</h1>
+        <button onclick="restartGame()">Restart</button>
+    </div>
+    <div id="victory" style="display: none;">
+        <h1>Victory!</h1>
+        <button onclick="restartGame()">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
